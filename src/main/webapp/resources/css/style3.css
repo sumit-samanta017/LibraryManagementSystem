@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+label, input{
+	position: relative;
+	font-family: cursive;
+}
+
+#inside_issueBookForm{
+	position: relative;
+	bottom: 2200px;
+	background:  #d1f2eb;
+	width: 60%;
+	left: 300px;
+	height: 300px;
+	padding-top: 18px;
+	padding-bottom: 20px;
+	border: 3px solid green;
+	border-radius: 15px;
+}
+
+input{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.label_issue_nameOfBook{
+	right: 5px;
+}
+
+.label_issue_costOfBook{
+	right: 104px;
+}
+
+.label_issue_numberOfBooksPresent{
+	right: 77px;
+}
+
+.label_issue_numberOfBooksToBeIssued{
+	right: 55px;
+}
+
+.disabledInputBox_bookName{
+	left: 5.5px;
+}
+
+.disabledInputBox_bookCost{
+	right: 85px;
+}
+
+.disabledInputBox_bookCount{
+	right: 30px;
+}
+
+#issueNoOfBooksInputBox{
+	right: 50px;
+}
+
+.btn-issueRecord{
+	font-size: 1.5em;
+	background:  #f7dc6f;
+	color: black;
+}
+
+.btn-issueRecord:hover{
+	background:  #34495e;
+	color: white;
+}
+
+
+
+

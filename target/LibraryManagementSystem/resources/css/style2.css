@@ -1,0 +1,260 @@
+@charset "ISO-8859-1";
+
+.common-content{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-size: contain;
+}
+
+#adminAction_header{
+	font-size: 29px;
+	text-transform: capitalize;
+	font-family: monospace;
+	color: black;
+	background-color: lightyellow;
+	margin: 50px 150px;
+}
+
+.btn{
+	cursor: pointer;
+	font-size: 2em;
+	color: white;
+	border-radius: 12px;
+	transition: 0.5s;
+}
+
+.btn-add{
+	background-color: green;
+	padding: 10px 22px;
+}
+
+.btn-delete{
+	background-color: tomato;
+	padding: 10px 10px;
+}
+
+.btn-display{
+	background-color: black;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img{
+	opacity: 1;
+	height: 50%;
+	width: 100%;
+	object-fit: cover;
+	transition: 0.3s;
+}
+
+
+html, body{
+	margin: 0;
+	height: 100;
+	overflow: hidden;
+}
+
+#inside_form_addrecord{
+	position: relative;
+	bottom: 700px;
+	background-color: white;
+	width: 700px;
+	left: 400px;
+	height: 300px;
+	border: 3px solid green;
+	padding-top: 50px;
+	border-radius: 20px;
+}
+
+.label_addRec{
+	font-family: cursive;
+}
+
+.label_costOfBook{
+	position: relative;
+	right: 89px;
+}
+
+.label_authorOfBook{
+	position: relative;
+	right: 28px;
+}
+
+.label_numberOfBook{
+	position: relative;
+	right: 62px;
+}
+
+.inputBox_bookAuthor{
+	position: relative;
+	left: 28px;
+}
+
+.inputBox_bookCount{
+	position: relative;
+	right: 56px;
+}
+
+.inputBox_bookCost{
+	position: relative;
+	right: 30px;
+}
+
+.btn-saveRecord{
+	background-color: lightgreen;
+	transition: 0.5s;
+	color: black;
+}
+
+.btn-saveRecord:hover{
+	color: white;
+	background-color: green;
+}
+
+table{
+	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+}
+
+th, td{
+	padding: 8px;
+	text-align: left;
+	border-bottom: 2px solid #ddd;
+	font-size: 18px;
+}
+
+tr:hover {
+	background-color: powderblue;
+	cursor: pointer;
+}
+
+.adjust-table-for-admin{
+	position: relative;
+	bottom: 1400px;
+	background: white;
+	width: 70%;
+	margin: auto;
+	border-radius: 20px;
+}
+
+#inside_adminAction{
+	position: relative;
+	bottom: 1000px;
+	background-color: lightyellow;
+	width: 50%;
+	margin: auto;
+	border-radius: 20px;	
+}
+
+#bcgDisplayRecordToAdmin{
+	height: 100%;
+}
+
+#insideCommonContent_updateRecord{
+	position: relative;
+	bottom: 1000px;
+	margin: auto;
+	background-color: white;
+	width: 50%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-radius: 20px;	
+	font-family: cursive;
+	font-size: 20px;
+}
+
+
+.btn-Update{
+	background-color: lightblue;
+}
+
+.btn-Update:hover{
+	background-color: blue;
+}
+
+.updateLabel, .updateInput{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
+
+.labelBookName{
+	right: 9px;
+}
+
+.labelBookCost{
+	right: 55px;
+}
+
+.labelBookCount{
+	right: 40px;
+}
+
+.inputBookName{
+	left: 10px;
+}
+
+.inputBookAuthor{
+	left: 4px;
+}
+
+.inputBookCost{
+	left: -30px;
+}
+
+.inputNoOfItems{
+	left: -40px;
+}
+
+#adjust-table-for-user{
+	position: relative;
+	bottom: 1400px;
+	width: 70%;
+	margin: auto;
+	border-radius: 20px;
+	background: white;
+}
+
+#btn-issue,#btn-return{
+	cursor: pointer;
+	border-radius: 12px;
+	border: 2px solid green;
+	font-size: 1.5em;
+	transition: 0.5s;
+}
+
+#btn-issue:hover{
+	background-color: green;
+	color: white;
+	font-family: cursive;
+}
+
+#btn-return:hover{
+	background-color: orange;
+	color: white;
+	font-family: cursive;
+}
+
+.btn-signOut{
+	position: relative;
+	float: right;
+	bottom: 1400px;
+	margin-right: 10px;
+	font-size: 1.5em;
+	border: 2px solid red;
+	color: tomato;
+	opacity: 0.7;
+}
+
+.btn-signOut:hover{
+	opacity: 1;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+
